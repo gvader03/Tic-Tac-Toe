@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    <script src="https://kit.fontawesome.com/f082898284.js" crossorigin="anonymous"></script>
+    <script src="scripts.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class = 'header'>
+        <h1>Tic, Tac, Toe</h1>
+    </div>
+    <div class = 'start-game'>
+        <div class = 'players'>
+            <h2 class = 'player-name'>Player One</h2>
+            <input type="text" value="Your Name" class="one-name" onfocus="this.value=''" autocomplete="off">
+            <h2 class = 'mark-select'>Player One Mark</h2>
+            <div class = 'marks'>
+                <button class = 'mark-btn' id= 'x'>X</button>
+                <button class = 'mark-btn' id = 'o'>O</button>
+            </div>
+            <h2 class = 'player-name'>Player Two</h2>
+            <input type="text" value="Your Name" class="two-name" onfocus="this.value=''" autocomplete="off">
+        </div>
+        <!--<p class = 'difficulty'>Select Computer Difficulty</p>
+        <div class = 'form'>
+            <select name="" id="difficult">
+                <option value="Easy">Easy</option>
+                <option value="Impossible">Impossible</option>
+            </select>
+        </div> -->
+        <button class = 'new-game'>Start Game</button>
+    </div>
+    <div class = 'game-set'>
+        <div class = 'game-board'></div>
+        <h2 class = 'result-text'></h2>
+        <button class = 'reset-btn'>Reset</button>
+    </div>
+</body>
+</html>
