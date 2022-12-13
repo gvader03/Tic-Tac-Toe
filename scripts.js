@@ -19,7 +19,7 @@ const gameSet = (() => {
 
     //add event listener for mark buttons and logic to add to player 1 and 2
 
-    const markSelect = document.querySelectorAll('.player-one > button');
+    const markSelect = document.querySelectorAll('.marks > button');
 
     markSelect.forEach((btn) => {
         btn.addEventListener('click', () => {
